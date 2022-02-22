@@ -10,7 +10,7 @@ Vous avez été deconnecté !
 
 <?php
 
-echo "qsdf";
+echo "qsdfbenjy";
 
 $content = ob_get_clean();
 $titre = "Deconnexion";
