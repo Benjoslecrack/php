@@ -1,0 +1,7 @@
+REQUETES SQL PRJOET BLOC B
+
+"SELECT * FROM musiques JOIN categories ON musiques.id_cat = categories.id_cat WHERE categories.nom_cat = 'rap';
+=>selectionne toutes les musiques rap
+
+SELECT * FROM musiques JOIN artistes JOIN categories ON musiques.id_artiste = artistes.id_artiste && musiques.id_cat = categories.id_cat WHERE artistes.nom_artiste = "tupac"; 
+=> affiche les musique d'un artiste selon sa catégorie
